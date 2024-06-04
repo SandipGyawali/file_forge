@@ -22,11 +22,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeClient>
-          <Header />
-          <div className="main-content flex flex-row px-6 lg:px-24">
-            {children}
-            <Toaster />
-          </div>
+          {children}
+          <Toaster />
           <ThemeToggle />
         </ThemeClient>
       </body>
