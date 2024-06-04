@@ -9,4 +9,9 @@ interface SignUpType {
   username: string;
 }
 
-export type { AuthState, SignUpType };
+interface LoginType {
+  email: string;
+  password: string;
+}
+
+export type { AuthState, SignUpType, LoginType };
