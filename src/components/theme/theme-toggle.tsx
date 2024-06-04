@@ -21,7 +21,7 @@ function ThemeToggle() {
     <Button
       variant="outline"
       size="icon"
-      className="absolute bottom-0 right-0 mx-6 my-6 lg:mx-24 animate-bounce hover:animate-none"
+      className="absolute fixed bottom-0 right-0 m-6 animate-bounce hover:animate-none"
       onClick={toggleTheme}
     >
       {isDark ? (
